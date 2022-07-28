@@ -14,7 +14,9 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percertage of user's browser font-size setting */
   font-size: 62.5%;
-  overflow-x: hidden;
+
+  /* IDK why this was here but saving it for later */
+  /* overflow-x: hidden; */
 }
 
 body {

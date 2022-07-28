@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- NAVIGATION FIXED WITH BURGER MENU -->
-    <header>
+    <header class="header">
       <img
         src="icons/Logo_Eades_Electric.svg"
         alt="Light bulb with Eades Electric written on it."
@@ -38,8 +38,18 @@
         <a href="#contact">Contact</a>
         <!-- JS function for menu -->
         <button class="btn-mobile-nav">
-          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          <img
+            src="icons/bx_menu.svg"
+            alt="Hamburger menu bars"
+            class="icon-mobile-nav"
+            name="menu-outline"
+          />
+          <img
+            src="icons/bx_x.svg"
+            alt="menu exit"
+            class="icon-mobile-nav"
+            name="close-outline"
+          />
         </button>
       </nav>
     </header>
@@ -73,59 +83,234 @@
     <section id="service">
       <h1 class="h1-small">My Service</h1>
       <!-- CARD 1 CARD 1 CARD 1 CARD 1 -->
-      <h2 class="h2-large">My Service</h2>
+      <h2 class="h2-large">Lighting</h2>
       <article class="srv-card">
-        <img src="" alt="" />
+        <img
+          src="images/light_bulbs.jpg"
+          alt="Five warm lightbulbs in a row."
+        />
         <ul>
-          <li></li>
+          <li>Light fixture installation</li>
+          <li>Lighting controls</li>
+          <li>Fans</li>
+          <li>Dimmer switches</li>
         </ul>
         <button class="btn">Contact Jacob</button>
       </article>
       <!-- CARD 2 CARD 2 CARD 2 CARD 2 -->
       <h2 class="h2-large">Service Change</h2>
       <article class="srv-card">
-        <img src="" alt="" />
+        <img
+          src="images/service_change.jpg"
+          alt="Outdoor power box for the attached building."
+        />
         <ul>
-          <li></li>
+          <li>Can be done as fast as a day</li>
+          <li>Will work with the electric company on your behalf</li>
+          <li>100% inspection pass rate</li>
         </ul>
         <button class="btn">Contact Jacob</button>
       </article>
       <!-- CARD 3 CARD 3 CARD 3 CARD 3 -->
       <h2 class="h2-large">Troubleshooting</h2>
       <article class="srv-card">
-        <img src="" alt="" />
-        <ul>
-          <li></li>
-        </ul>
+        <img
+          src="images/duplex_plug.jpg"
+          alt="Duplex_plug with cord being inserted."
+        />
+        <p>
+          If you have any trouble with any electrical circuit, fixtures, or
+          devices, have me take a look.
+        </p>
         <button class="btn">Contact Jacob</button>
       </article>
       <!-- CARD 4 CARD 4 CARD 4 CARD 4 -->
       <h2 class="h2-large">Renovation</h2>
       <article class="srv-card">
-        <img src="" alt="" />
+        <img src="images/new_kitchen.jpg" alt="Clean white kitchen." />
         <ul>
-          <li></li>
+          <li>
+            Kitchen (e.g. install stove, microwave, garbage disposal, dish
+            washer)
+          </li>
+          <li>Washer and dryer</li>
+          <li>Bathroom (e.g. bidet, jacuzzi motor, GFCI)</li>
         </ul>
         <button class="btn">Contact Jacob</button>
       </article>
       <!-- CARD 5 CARD 5 CARD 5 CARD 5 -->
       <h2 class="h2-large">Repair/install electrical equipment</h2>
       <article class="srv-card">
-        <img src="" alt="" />
+        <img
+          src="images/electric_chager.jpg"
+          alt="EV being charged with an EV charger."
+        />
+        <p>Such as:</p>
         <ul>
-          <li></li>
+          <li>Instant water heater</li>
+          <li>Exhaust fan</li>
+          <li>EV charging station</li>
         </ul>
         <button class="btn">Contact Jacob</button>
       </article>
       <!-- CARD 6 CARD 6 CARD 6 CARD 6 -->
       <h2 class="h2-large">Didn't find what you're looking for?</h2>
       <article class="srv-card">
-        <img src="" alt="" />
-        <ul>
-          <li></li>
-        </ul>
+        <img
+          src="images/light_bulbs.jpg"
+          alt="Five warm lightbulbs in a row."
+        />
+        <p>
+          If you didn't see your needs listed, please don't hesitate contacting
+          Jacob.
+        </p>
         <button class="btn">Contact Jacob</button>
       </article>
     </section>
+    <!-- WHY CHOOSE ME SECTION -->
+    <section id="why">
+      <h1 class="h1-small">Why clients choose me?</h1>
+      <!-- WHY 1 WHY 1 WHY 1 WHY 1 -->
+      <article class="why-art">
+        <img src="icons/bx_trophy.svg" alt="Trophy." />
+        <h2 class="h2-large">Qualifica1tion</h2>
+        <p>
+          I'm a fully insured onsite master electrician with a Class C
+          contractor's license
+        </p>
+      </article>
+      <!-- WHY 2 WHY 2 WHY 2 WHY 2 -->
+      <article class="why-art">
+        <img src="icons/bx_dollar.svg" alt="Doller sign." />
+        <h2 class="h2-large">Affordable and Honest</h2>
+        <p>
+          My rate is affordable and honest. I try my best to save clients money
+          while providing high quality service.
+        </p>
+      </article>
+      <!-- WHY 3 WHY 3 WHY 3 WHY 3 -->
+      <article class="why-art">
+        <img
+          src="icons/bx_move-horizontal.svg"
+          alt="Arrows pointing on the x-axis."
+        />
+        <h2 class="h2-large">Job scope</h2>
+        <p>
+          No job is too small for me. I'm willing to make a visit just to fix
+          one small thing.
+        </p>
+      </article>
+      <!-- WHY 4 WHY 4 WHY 4 WHY 4 -->
+      <article class="why-art">
+        <img src="icons/Shield.svg" alt="Sheild with a check mark inside." />
+        <h2 class="h2-large">100 % Inspection Pass</h2>
+        <p>
+          Even if an inspection fails, I will fix with no additional charge.
+        </p>
+      </article>
+      <!-- WHY 5 WHY 5 WHY 5 WHY 5 -->
+      <article class="why-art">
+        <img
+          src="icons/bx_group.svg"
+          alt="Silouet of a human and another behind them."
+        />
+        <h2 class="h2-large">Knowledge sharing</h2>
+        <p>I educate customers on electrical safety.</p>
+      </article>
+      <!-- WHY 6 WHY 6 WHY 6 WHY 6 -->
+      <article class="why-art">
+        <img src="icons/Communication.svg" alt="Chat message or talk." />
+        <h2 class="h2-large">Good Communication</h2>
+        <p>I educate customers on electrical safety.</p>
+      </article>
+    </section>
+    <!-- LOCATION IS MAP SECTION -->
+    <section id="location">
+      <h1 class="h1-small">Location</h1>
+      <p>
+        I provide service in <strong>Lynchburg, Virginia</strong> and its
+        surrounding counties.<br />
+        I can travel up to 2h away from Lynchburg, VA.
+      </p>
+      <figure>
+        <img
+          src="images/VA_map.jpg"
+          alt="Central VA, Area were Jacob will do work."
+        />
+        <figcaption>Map of Virginia counties surrounding Lynchburg</figcaption>
+      </figure>
+    </section>
+    <!-- CUSTOMER PRICING SECTION -->
+    <section id="pricing">
+      <h1 class="h1-small">Pricing</h1>
+      <!-- OPTION 1 -->
+      <article>
+        <img src="icons/clock_solid.svg" alt="Clock set to 5:00." />
+        <h2 class="body-bold">Option 1: Hourly Based</h2>
+        <ul>
+          <li>For projects with an unclear scope.</li>
+          <li>
+            I can put in extra efforts to perfect the project or work
+            efficiently to reach the customer requirements.
+          </li>
+          <li>
+            Expect to pay more if something unexpected happens and requires more
+            time than the initial estimation.
+          </li>
+        </ul>
+      </article>
+      <!-- OPTION 2 -->
+      <article>
+        <img src="icons/breifcase_solid.svg" alt="Breifcase in a circle." />
+        <h2 class="body-bold">
+          Option 2:<br />
+          Project Based Flat Rate
+        </h2>
+        <ul>
+          <li>For project with a clear scope.</li>
+          <li>You will know the entire labor cost upfront.</li>
+          <li>You will only be charged extra for change order.</li>
+          <li>You won't be charged extra for me perfecting the work.</li>
+        </ul>
+      </article>
+      <p>
+        <strong
+          >Please contact me for a free quote, including estimates for material
+          and labor.</strong
+        >
+      </p>
+      <p>
+        *If an inspection fails due to the work outlined in the contract, it
+        will be as soon as possible with no additional labor charge.
+      </p>
+      <button class="btn">Contact Jacob for a Free Quote</button>
+    </section>
+    <!-- JACOB EADES CONTACT SECTION -->
+    <section id="contact">
+      <h1 class="h1-small">Jacob Eades Contact Info</h1>
+      <article class="contact-box">
+        <img src="icons/bx_phone.svg" alt="Telephone." />
+        <h2 class="h2-large">Phone</h2>
+        <p class="pri-brand">434-944-2129</p>
+      </article>
+      <article class="contact-box">
+        <img src="icons/bx_envelope.svg" alt="Envelope." />
+        <h2 class="h2-large">Email</h2>
+        <p class="pri-brand">jacob.eades@eadeselectric.com</p>
+      </article>
+      <article class="contact-box">
+        <img src="icons/linkedin-fill.svg" alt="Linkedin logo." />
+        <h2 class="h2-large">Linkedin</h2>
+        <p class="pri-brand">linkedin.com/company/eades-electric-llc</p>
+      </article>
+      <article class="contact-box">
+        <img src="icons/bxl_facebook.svg" alt="Facebook logo." />
+        <h2 class="h2-large">Facebook</h2>
+        <p class="pri-brand">facebook.com/eadeselectric</p>
+      </article>
+    </section>
+    <footer>
+      <p>&copy; Copyright 2022 Eades Electric LLC. - All Rights Reserved</p>
+    </footer>
   </body>
 </html>
