@@ -14,6 +14,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percertage of user's browser font-size setting */
   font-size: 62.5%;
+  background-color: #353535;
 
   /* IDK why this was here but saving it for later */
   /* overflow-x: hidden; */
@@ -23,17 +24,139 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: #ffffff;
   overflow-x: hidden;
 }
 
-/* h1 Small */
-h1 {
-  font-family: "Rokkitt", serif;
+/* ////////////////TYPOGRAPHY///////////////////// */
+/* Combined typography styles */
+.subtitle-typ,
+.body-typ,
+.body-bold-typ,
+.small-typ,
+.h1-small-typ,
+.h1-large-typ,
+.h2-large-typ {
   font-style: normal;
+}
+
+.subtitle-typ,
+.body-bold-typ,
+.h1-small-typ,
+.h1-large-typ,
+.h2-large-typ {
   font-weight: 700;
+}
+
+.nav-menu-link {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 21.79px;
+}
+
+.subtitle-typ {
+  font-family: "Rokkitt";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.body-typ {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+strong,
+.body-bold-typ {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.small-typ {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.h1-large-typ {
+  font-family: "Rokkitt";
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+}
+
+.h1-small-typ {
+  font-family: "Rokkitt";
   font-size: 48px;
   line-height: 55px;
   letter-spacing: 0.02em;
-  color: #000000;
+}
+
+.h2-large-typ {
+  font-family: "Open Sans";
+  font-size: 28px;
+  line-height: 38px;
+}
+
+/* /////////////////////COLORS/////////////////// */
+.pri-brand {
+  color: #f1cb00;
+}
+
+.pri-light {
+  color: #fff9da;
+}
+
+.pri-dark {
+  color: #aa9211;
+}
+
+.sec-brand {
+  color: #49b6f3;
+}
+
+.sec-dark {
+  color: #0578b8;
+}
+
+/* //////////////BUTTON////////////// */
+.btn,
+.btn-small {
+  background-color: #f1cb00;
+}
+
+.btn {
+  font-size: 18px;
+  /* this may not matter */
+  line-height: 24.51px;
+}
+
+.btn-small {
+  font-size: 16px;
+  /* this may not matter */
+  line-height: 21.79px;
+}
+
+/* //////////////ANCHORS////////////// */
+#nav-link-container {
+  position: absolute;
+  left: 0%;
+  right: -2.17%;
+  top: 0%;
+  bottom: 0%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  /* old Flex */
+  display: none;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
 }
