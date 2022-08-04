@@ -1,0 +1,229 @@
+/* ////////////STICKY HEADER//////////// */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 16px;
+  gap: 56px;
+
+  position: fixed;
+  width: 100vw;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28), 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header-contaainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo {
+  height: 49px;
+  width: 49px;
+  left: 0px;
+  top: -3px;
+}
+
+#header-company-name {
+  display: flex;
+  width: 147px;
+  height: 27px;
+  align-items: center;
+}
+
+.btn-mobile-nav {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.burger {
+  position: relative;
+}
+
+.exit {
+  position: relative;
+  height: 36px;
+  width: 36px;
+  padding: 5px;
+}
+/* ************************************* */
+/* HOME */
+/* ************************************* */
+/* title margin fix */
+#home {
+  margin-top: 7.7rem;
+}
+
+.mar-24 {
+  margin-top: 2.4rem;
+}
+
+.profile-pic {
+  border-radius: 0.4rem;
+  width: 34.3rem;
+}
+
+.home-btn {
+  width: 34.3rem;
+}
+
+/* ************************************* */
+/* MY SERVICE */
+/* ************************************* */
+#service img {
+  width: 100%;
+}
+
+.srv-card {
+  display: inline-block;
+  margin-top: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.28), 0px 0px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.srv-card h2 {
+  padding: 2.4rem 0 0 2.4rem;
+}
+
+.srv-card ul {
+  margin-left: 2.4rem;
+  padding: 2.4rem;
+}
+
+.srv-card p {
+  margin: auto;
+  padding: 2.4rem;
+}
+.card-5-p p {
+  padding-bottom: 0;
+}
+
+.srv-card button {
+  padding-bottom: 2.4rem;
+  padding: 12px 20px;
+  margin: 0 0 2.4rem 2.4rem;
+}
+
+/* ************************************* */
+/* WHY CHOOSE ME */
+/* ************************************* */
+.why-grid {
+  margin-top: 4rem;
+  row-gap: 4rem;
+}
+
+.why-art img {
+  padding-left: 1.7rem;
+}
+
+.why-art h2 {
+  padding: 2.1rem 1.2rem 1.6rem 1.2rem;
+}
+
+.why-art p {
+  padding: 0 1.2rem;
+}
+
+/* ************************************* */
+/* LOCATION */
+/* ************************************* */
+.map-img {
+  width: 343px;
+  margin-top: 4.8rem;
+}
+
+#location p {
+  margin-top: 2.4rem;
+}
+#location figcaption {
+  margin-top: 1.2rem;
+  text-align: right;
+}
+
+/* ************************************* */
+/* PRICING */
+/* ************************************* */
+.pricing-grid {
+  margin: 3.2rem 0;
+  row-gap: 3.2rem;
+}
+
+#pricing img {
+  width: 48px;
+  height: 48px;
+}
+
+#pricing img,
+#pricing h2 {
+  display: inline-block;
+  gap: 1.6rem;
+  justify-content: center;
+  align-content: center;
+}
+
+#pricing h2 {
+  padding-left: 1.6rem;
+}
+/* question: the padding on these UL*/
+.pricing-grid ul {
+  padding: 1.6rem;
+}
+
+.pricing-p1 {
+  margin-top: 1.6rem;
+}
+
+.pricing-p2 {
+  margin-top: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+#pricing button {
+  width: 100%;
+}
+
+/* ************************************* */
+/* CONTACT */
+/* ************************************* */
+#contact img {
+  width: 36px;
+  height: 36px;
+}
+.contact-grid {
+  gap: 1.6rem;
+  row-gap: 1.6rem;
+}
+
+.contact-box {
+  padding: 2.4rem 3.2rem;
+  border-radius: 4px;
+}
+
+.contact-box h2 {
+  margin-top: 1.2rem;
+}
+
+.contact-box p {
+  margin-top: 0.8rem;
+}
+/* ************************************* */
+/* CONTACT */
+/* ************************************* */
+body .footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 114px;
+  left: 0px;
+  right: 0px;
+  width: 100vw;
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+}

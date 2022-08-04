@@ -14,7 +14,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percertage of user's browser font-size setting */
   font-size: 62.5%;
-  background-color: #353535;
+  margin: 0 auto;
 
   /* IDK why this was here but saving it for later */
   /* overflow-x: hidden; */
@@ -26,9 +26,23 @@ body {
   font-weight: 400;
   color: #ffffff;
   overflow-x: hidden;
+  max-width: 120rem;
+  padding: 0 1.6rem;
+  margin: 0 auto;
 }
 
-/* ////////////////TYPOGRAPHY///////////////////// */
+.grid--col-1 {
+  display: grid;
+  grid-template-columns: 1;
+}
+
+.marg-t-72 {
+  margin-top: 7.2rem;
+}
+
+/* ************************************* */
+/* TYPOGRAPHY */
+/* ************************************* */
 /* Combined typography styles */
 .subtitle-typ,
 .body-typ,
@@ -101,7 +115,9 @@ strong,
   line-height: 38px;
 }
 
-/* /////////////////////COLORS/////////////////// */
+/* ************************************* */
+/* COLORS */
+/* ************************************* */
 .pri-brand {
   color: #f1cb00;
 }
@@ -121,26 +137,46 @@ strong,
 .sec-dark {
   color: #0578b8;
 }
+.gray-1-bg {
+  background-color: #232323;
+}
 
-/* //////////////BUTTON////////////// */
+.gray-2-bg {
+  background-color: #353535;
+}
+
+.gray-3-bg {
+  background-color: #585446;
+}
+
+/* ************************************* */
+/* BUTTON */
+/* ************************************* */
 .btn,
 .btn-small {
   background-color: #f1cb00;
+  border-radius: 0.4rem;
+  font-family: "Open Sans";
+  border: none;
 }
 
 .btn {
   font-size: 18px;
+  font-weight: 700;
   /* this may not matter */
   line-height: 24.51px;
+  height: 57px;
 }
 
 .btn-small {
   font-size: 16px;
-  /* this may not matter */
-  line-height: 21.79px;
+  font-weight: 700;
+  line-height: 22px;
 }
 
-/* //////////////ANCHORS////////////// */
+/* ************************************* */
+/* ANCHOR */
+/* ************************************* */
 #nav-link-container {
   position: absolute;
   left: 0%;
@@ -159,4 +195,11 @@ strong,
   align-items: center;
   text-align: center;
   color: #ffffff;
+}
+
+/* ************************************* */
+/* TEXT */
+/* ************************************* */
+.txt-align {
+  color: #0578b8;
 }
