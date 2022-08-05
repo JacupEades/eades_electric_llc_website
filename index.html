@@ -19,7 +19,7 @@
     <title>Eades Electric LLC</title>
   </head>
   <body class="gray-2-bg">
-    <!-- NAVIGATION FIXED WITH BURGER MENU -->
+    <!-- NAVIGATION WITH BURGER MENU -->
     <header class="header gray-1-bg">
       <div class="header-contaainer">
         <img
@@ -32,31 +32,34 @@
           ><span class="sec-brand">Electric</span>
         </h3>
       </div>
-      <nav id="nav-menu-link">
-        <aside id="nav-link-container">
-          <a href="#home">Home</a>
-          <a href="#service">My Service</a>
-          <a href="#why">Why me</a>
-          <a href="#location">Location</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#contact">Contact</a>
-        </aside>
-        <!-- JS function for menu -->
-        <button class="btn-mobile-nav">
-          <img
-            src="icons/bx_menu.svg"
-            alt="Hamburger menu bars"
-            class="icon-mobile-nav burger"
-            name="menu-outline"
-          />
-          <img
-            src="icons/bx_x.svg"
-            alt="menu exit"
-            class="icon-mobile-nav exit"
-            name="close-outline"
-          />
-        </button>
+
+      <!-- NAVIGATION -->
+      <nav class="main-nav gray-1-bg">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#home">Home</a></li>
+          <li><a class="main-nav-link" href="#service">My Service</a></li>
+          <li><a class="main-nav-link" href="#why">Why me</a></li>
+          <li><a class="main-nav-link" href="#location">Location</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link" href="#contact">Contact</a></li>
+        </ul>
       </nav>
+
+      <!-- JS function for menu -->
+      <button class="btn-mobile-nav">
+        <img
+          src="icons/bx_menu.svg"
+          alt="Hamburger menu bars"
+          class="icon-mobile-nav burger"
+          name="menu-outline"
+        />
+        <img
+          src="icons/bx_x.svg"
+          alt="menu exit"
+          class="icon-mobile-nav exit"
+          name="close-outline"
+        />
+      </button>
     </header>
 
     <!-- HERO SECTION -->
@@ -268,8 +271,13 @@
       <div class="grid--col-1 pricing-grid">
         <!-- OPTION 1 -->
         <article>
-          <img src="icons/clock_solid.svg" alt="Clock set to 5:00." />
-          <h2 class="body-bold-typ">Option 1: Hourly Based</h2>
+          <div>
+            <img src="icons/clock_solid.svg" alt="Clock set to 5:00." />
+            <h2 class="body-bold-typ">
+              Option 1:<br />
+              Hourly Based
+            </h2>
+          </div>
           <ul class="body-typ">
             <li>For projects with an unclear scope.</li>
             <li>
@@ -284,11 +292,13 @@
         </article>
         <!-- OPTION 2 -->
         <article>
-          <img src="icons/breifcase_solid.svg" alt="Breifcase in a circle." />
-          <h2 class="body-bold-typ">
-            Option 2:<br />
-            Project Based Flat Rate
-          </h2>
+          <div>
+            <img src="icons/breifcase_solid.svg" alt="Breifcase in a circle." />
+            <h2 class="body-bold-typ">
+              Option 2: <br />
+              Project Based Flat Rate
+            </h2>
+          </div>
           <ul class="body-typ">
             <li>For project with a clear scope.</li>
             <li>You will know the entire labor cost upfront.</li>
