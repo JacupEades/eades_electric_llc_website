@@ -17,7 +17,7 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28), 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
-.header-contaainer {
+.header-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,10 +66,11 @@
   height: 29.5rem;
   transform: translateY(-100%);
 
-  display: flex;
-  align-items: center;
+  display: block;
+  text-align: center;
   justify-content: center;
   transition: 0.25s ease-in;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.28);
 
   /* hides nav */
   /* Allows no transitions at all */
@@ -96,6 +97,7 @@
 
 .main-nav-link:link,
 .main-nav-link:visited {
+  position: relative;
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
@@ -108,27 +110,21 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #585446;
+  background-color: #353535;
+  width: 100%;
+
+  transition: 0.25s;
 }
 /* ************************************* */
 /* HOME */
 /* ************************************* */
-/* title margin fix */
-#home {
-  margin-top: 7.7rem;
-}
-
-.mar-24 {
-  margin-top: 2.4rem;
-}
-
 .profile-pic {
   border-radius: 0.4rem;
-  width: 34.3rem;
+  width: 100%;
 }
 
 .home-btn {
-  width: 34.3rem;
+  width: 100%;
 }
 
 /* ************************************* */
@@ -148,9 +144,6 @@
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.28), 0px 0px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   min-width: 34.3rem;
-  max-width: 59.6rem;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .srv-card h2 {
@@ -200,13 +193,10 @@
 /* LOCATION */
 /* ************************************* */
 .map-img {
-  width: 343px;
+  width: 100%;
   margin-top: 4.8rem;
 }
 
-#location p {
-  margin-top: 2.4rem;
-}
 #location figcaption {
   margin-top: 1.2rem;
   text-align: right;
@@ -278,18 +268,16 @@
 .contact-box p {
   margin-top: 0.8rem;
 }
+.contact-box a {
+  color: #f1cb00;
+}
 /* ************************************* */
-/* CONTACT */
+/* FOOTER */
 /* ************************************* */
-body .footer {
+.footer {
   position: absolute;
-  display: flex;
-  align-items: center;
+  padding: 3.2rem 1.6rem;
   text-align: center;
-  height: 114px;
-  left: 0px;
-  right: 0px;
-  width: 100vw;
-  margin-top: 1.6rem;
-  padding: 1.6rem;
+  width: 100%;
+  left: 0;
 }

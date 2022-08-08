@@ -11,7 +11,13 @@
 
 ////////////////OmniFood example///////////////////////
 const btnNavEl = document.querySelector(".btn-mobile-nav");
+const linkNavEl = document.querySelector(".main-nav-list");
 const headerEl = document.querySelector(".header");
+
 btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
+linkNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
