@@ -25,14 +25,10 @@ body {
   font-weight: 400;
   color: #ffffff;
   overflow-x: hidden;
-  max-width: 49.6rem;
+  /* 496(MAX CONTENT) + 32 (CONTENT PADDING) */
+  max-width: 52.8rem;
   margin: 0 auto;
   padding: 0 1.6rem;
-}
-
-.grid--col-1 {
-  display: grid;
-  grid-template-columns: 1;
 }
 
 .lrg-cont-blck {

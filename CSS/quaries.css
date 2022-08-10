@@ -1,12 +1,163 @@
-/* //////NAV MENU OPEN CLOSE TOGGLE////// */
-.nav-open .icon-mobile-nav[name="close-outline"] {
-  display: block;
+/* ************************************* */
+/* BREAKPOINT 600PX-899PX */
+/* ************************************* */
+@media only screen and (min-width: 37.5em) and (max-width: 56.1875em) {
+  /* GENERAL */
+  body {
+    /* 680(MAX CONTENT) + 48 (CONTENT PADDING) */
+    max-width: 72.8rem;
+    padding: 0 2.4rem;
+  }
+
+  .lrg-cont-blck {
+    padding-top: 7.2rem;
+  }
+
+  .sml-cont-blck {
+    margin-top: 2.4rem;
+  }
+
+  .btn-lrg {
+    width: 32.3rem;
+  }
+  /* SERVICE */
+  #service h1 {
+    text-align: center;
+  }
+
+  .srv-card {
+    margin-top: 3.2rem;
+    min-width: 34.3rem;
+  }
+  /* WHY */
+  #why {
+    text-align: center;
+  }
+
+  .why-btn {
+    justify-self: center;
+    grid-column: 1 / 3;
+  }
+
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 4.8rem;
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+  }
+  /* LOCTION */
+  #location {
+    text-align: center;
+  }
+  /* PRICING */
+  #pricing h1 {
+    text-align: center;
+  }
+
+  #pricing img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .pricing-opt {
+    padding-left: 12rem;
+  }
+
+  .opt-title {
+    height: 2.5rem;
+  }
+
+  .opt-icon {
+    position: relative;
+    left: -120px;
+    top: 49px;
+  }
+
+  .opt-h2 {
+    position: relative;
+    left: -90px;
+    padding-left: 0;
+  }
+
+  .pricing-grid ul {
+    padding: 1.2rem 0 0 0;
+  }
+
+  .pricing-p1 {
+    margin-top: 3.2rem;
+  }
+
+  .opt-h2 br {
+    content: " ";
+  }
+
+  .opt-h2 br::after {
+    content: " ";
+  }
+
+  .price-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* CONTCACT */
+  #contact h1 {
+    text-align: center;
+  }
+
+  .contact-box {
+    display: flex;
+    align-items: center;
+
+    gap: 3.6rem;
+    padding: 2.4rem;
+  }
+
+  #contact img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .contact-box h2 {
+    margin-top: 0;
+  }
 }
 
-.nav-open .icon-mobile-nav[name="menu-outline"] {
-  display: none;
+/* ************************************* */
+/* BREAKPOINT 900PX-1279PX */
+/* ************************************* */
+@media only screen and (min-width: 56.25em) and (max-width: 79.9375em) {
+  body {
+    max-width: 104rem;
+  }
+
+  .lrg-cont-blck {
+    padding-top: 9.6rem;
+  }
+
+  .sml-cont-blck {
+    margin-top: 3.2rem;
+  }
 }
 
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
+/* ************************************* */
+/* BREAKPOINT 900PX-1279PX */
+/* ************************************* */
+@media only screen and (min-width: 80em) {
+  body {
+    max-width: 120rem;
+  }
+
+  .lrg-cont-blck {
+    padding-top: 7.2rem;
+  }
+
+  .sml-cont-blck {
+    margin-top: 2.4rem;
+  }
+
+  .pri-brand {
+    background-color: yellow;
+    color: yellow;
+  }
 }

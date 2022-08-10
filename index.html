@@ -82,7 +82,9 @@
       </h1>
       <p class="body-typ sml-cont-blck">
         My name is <strong>Jacob Eades</strong>, and I am owner of Eades
-        Electric LLC, a single member LLC based in Lynchburg, Virginia.<br />
+        Electric LLC, a single member LLC based in Lynchburg, Virginia.
+      </p>
+      <p class="body-typ sml-cont-blck">
         I'm a <strong>master electrician</strong> with 5 years of electrical
         experience. I offer residential electrical renovation and new
         construction services. Please contact me for a free quote.
@@ -105,7 +107,7 @@
     <!-- MY SERVICE SECTION -->
     <section id="service" class="lrg-cont-blck">
       <h1 class="h1-small-typ">My Service</h1>
-      <div class="grid--col-1">
+      <div class="crd-grid">
         <!-- CARD 1 CARD 1 CARD 1 CARD 1 -->
         <article class="srv-card body-typ gray-1-bg">
           <img
@@ -199,7 +201,7 @@
     <!-- WHY CHOOSE ME SECTION -->
     <section id="why" class="lrg-cont-blck">
       <h1 class="h1-small-typ">Why clients choose me?</h1>
-      <div class="why-grid grid--col-1">
+      <div class="why-grid">
         <!-- WHY 1 WHY 1 WHY 1 WHY 1 -->
         <article class="why-art body-typ">
           <img src="icons/bx_trophy.svg" alt="Trophy." />
@@ -255,7 +257,7 @@
             I relay job scope clearly to customers and provide frequent updates.
           </p>
         </article>
-        <button class="btn-lrg">Contact Jacob for a Free Quote</button>
+        <button class="btn-lrg why-btn">Contact Jacob for a Free Quote</button>
       </div>
     </section>
     <!-- LOCATION IS MAP SECTION -->
@@ -280,15 +282,16 @@
     <!-- CUSTOMER PRICING SECTION -->
     <section id="pricing" class="lrg-cont-blck">
       <h1 class="h1-small-typ">Pricing</h1>
-      <div class="grid--col-1 pricing-grid">
+      <div class="pricing-grid">
         <!-- OPTION 1 -->
-        <article>
-          <div>
-            <img src="icons/clock_solid.svg" alt="Clock set to 5:00." />
-            <h2 class="body-bold-typ">
-              Option 1:<br />
-              Hourly Based
-            </h2>
+        <article class="pricing-opt">
+          <div class="opt-title">
+            <div class="opt-icon">
+              <img src="icons/clock_solid.svg" alt="Clock set to 5:00." />
+            </div>
+            <div class="opt-h2">
+              <h2 class="body-bold-typ">Option 1: Hourly Based</h2>
+            </div>
           </div>
           <ul class="body-typ">
             <li>For projects with an unclear scope.</li>
@@ -303,13 +306,20 @@
           </ul>
         </article>
         <!-- OPTION 2 -->
-        <article>
-          <div>
-            <img src="icons/breifcase_solid.svg" alt="Breifcase in a circle." />
-            <h2 class="body-bold-typ">
-              Option 2: <br />
-              Project Based Flat Rate
-            </h2>
+        <article class="pricing-opt">
+          <div class="opt-title">
+            <div class="opt-icon">
+              <img
+                src="icons/breifcase_solid.svg"
+                alt="Breifcase in a circle."
+              />
+            </div>
+            <div class="opt-h2">
+              <h2 class="body-bold-typ">
+                Option 2:<br />
+                Project Based Flat Rate
+              </h2>
+            </div>
           </div>
           <ul class="body-typ">
             <li>For project with a clear scope.</li>
@@ -327,42 +337,58 @@
         *If an inspection fails due to the work outlined in the contract, it
         will be as soon as possible with no additional labor charge.
       </p>
-      <button class="btn-lrg">Contact Jacob for a Free Quote</button>
+      <button class="btn-lrg price-btn">Contact Jacob for a Free Quote</button>
     </section>
     <!-- JACOB EADES CONTACT SECTION -->
     <section id="contact" class="lrg-cont-blck">
       <h1 class="h1-small-typ">Jacob Eades Contact Info</h1>
-      <div class="contact-grid grid--col-1">
+      <div class="contact-grid">
         <article class="contact-box gray-1-bg sml-cont-blck">
-          <img src="icons/bx_phone.svg" alt="Telephone." />
-          <h2 class="h2-large-typ">Phone</h2>
-          <p class="pri-brand body-typ">434-944-2129</p>
+          <div class="contact-crd-icon">
+            <img src="icons/bx_phone.svg" alt="Telephone." />
+          </div>
+          <div class="contact-crd-txt">
+            <h2 class="h2-large-typ">Phone</h2>
+            <p class="pri-brand body-typ">434-944-2129</p>
+          </div>
         </article>
         <article class="contact-box gray-1-bg">
-          <img src="icons/bx_envelope.svg" alt="Envelope." />
-          <h2 class="h2-large-typ">Email</h2>
-          <p class="pri-brand body-typ">jacob.eades@eadeselectric.com</p>
+          <div class="contact-crd-icon">
+            <img src="icons/bx_envelope.svg" alt="Envelope." />
+          </div>
+          <div class="contact-crd-txt">
+            <h2 class="h2-large-typ">Email</h2>
+            <p class="pri-brand body-typ">jacob.eades@eadeselectric.com</p>
+          </div>
         </article>
         <article class="contact-box gray-1-bg">
-          <img src="icons/linkedin-fill.svg" alt="Linkedin logo." />
-          <h2 class="h2-large-typ">Linkedin</h2>
-          <p class="pri-brand body-typ">
-            <a
-              href="https://www.linkedin.com/company/eades-electric-llc"
-              target="_blank"
-            >
-              linkedin.com/company/eades-electric-llc</a
-            >
-          </p>
+          <div class="contact-crd-icon">
+            <img src="icons/linkedin-fill.svg" alt="Linkedin logo." />
+          </div>
+          <div class="contact-crd-txt">
+            <h2 class="h2-large-typ">Linkedin</h2>
+            <p class="pri-brand body-typ">
+              <a
+                href="https://www.linkedin.com/company/eades-electric-llc"
+                target="_blank"
+              >
+                linkedin.com/company/eades-electric-llc</a
+              >
+            </p>
+          </div>
         </article>
         <article class="contact-box gray-1-bg">
-          <img src="icons/bxl_facebook.svg" alt="Facebook logo." />
-          <h2 class="h2-large-typ">Facebook</h2>
-          <p class="pri-brand body-typ">
-            <a href="https://www.facebook.com/eadeselectric" target="_blank"
-              >facebook.com/eadeselectric</a
-            >
-          </p>
+          <div class="contact-crd-icon">
+            <img src="icons/bxl_facebook.svg" alt="Facebook logo." />
+          </div>
+          <div class="contact-crd-txt">
+            <h2 class="h2-large-typ">Facebook</h2>
+            <p class="pri-brand body-typ">
+              <a href="https://www.facebook.com/eadeselectric" target="_blank"
+                >facebook.com/eadeselectric</a
+              >
+            </p>
+          </div>
         </article>
       </div>
     </section>

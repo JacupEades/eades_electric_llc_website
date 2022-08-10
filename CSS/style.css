@@ -1,11 +1,13 @@
-/* ////////////STICKY HEADER//////////// */
+/* ************************************* */
+/* STICKY HEADER */
+/* ************************************* */
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   z-index: 999;
   align-items: center;
-  padding: 5px 16px;
+  padding: 0.5rem 1.6rem;
   gap: 56px;
 
   position: fixed;
@@ -41,6 +43,17 @@
 /* ************************************* */
 /* NAV MENU OPEN/CLOSE */
 /* ************************************* */
+.nav-open .icon-mobile-nav[name="close-outline"] {
+  display: block;
+}
+
+.nav-open .icon-mobile-nav[name="menu-outline"] {
+  display: none;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 
 .btn-mobile-nav {
   background-color: rgba(0, 0, 0, 0);
@@ -130,6 +143,11 @@
 /* ************************************* */
 /* MY SERVICE */
 /* ************************************* */
+.crd-grid {
+  display: grid;
+  grid-template-columns: 1;
+}
+
 #service img {
   height: 240px;
   width: 100%;
@@ -173,8 +191,11 @@
 /* WHY CHOOSE ME */
 /* ************************************* */
 .why-grid {
-  margin-top: 4rem;
-  row-gap: 4rem;
+  display: grid;
+  grid-template-columns: 1;
+
+  margin-top: 3.2rem;
+  row-gap: 3.2rem;
 }
 
 .why-art img {
@@ -206,6 +227,9 @@
 /* PRICING */
 /* ************************************* */
 .pricing-grid {
+  display: grid;
+  grid-template-columns: 1;
+
   margin: 3.2rem 0;
   row-gap: 3.2rem;
 }
@@ -215,16 +239,14 @@
   height: 48px;
 }
 
-#pricing img,
-#pricing h2 {
-  display: inline-block;
-  gap: 1.6rem;
-  justify-content: center;
-  align-content: center;
+.opt-title {
+  display: flex;
+  align-items: center;
 }
 
-#pricing h2 {
-  position: absolute;
+/* .opt-icon {} */
+
+.opt-h2 {
   padding-left: 1.6rem;
 }
 /* question: the padding on these UL*/
@@ -240,7 +262,7 @@
   margin-top: 1.2rem;
   margin-bottom: 3.2rem;
 }
-#pricing button {
+.price-btn {
   width: 100%;
 }
 
@@ -252,6 +274,9 @@
   height: 36px;
 }
 .contact-grid {
+  display: grid;
+  grid-template-columns: 1;
+
   gap: 1.6rem;
   row-gap: 1.6rem;
 }
