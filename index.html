@@ -15,67 +15,74 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rokkitt:wght@700&display=swap"
       rel="stylesheet"
-    />
-    <title>Eades Electric LLC</title>
-  </head>
-  <body class="gray-2-bg">
-    <!-- NAVIGATION WITH BURGER MENU -->
-    <header class="header gray-1-bg">
-      <div class="header-container">
-        <img
-          src="icons/Logo_Eades_Electric.svg"
-          alt="Light bulb with Eades Electric written on it."
-          id="header-logo"
-        />
-        <h3 id="header-company-name" class="subtitle-typ">
-          <span class="pri-brand">Eades</span
-          ><span class="sec-brand">Electric</span>
-        </h3>
+      />
+      <title>Eades Electric LLC</title>
+    </head>
+    <body class="gray-2-bg">
+      <!-- NAVIGATION WITH BURGER MENU -->
+      <div class="header-bg">
       </div>
+        <header class="header gray-1-bg">
+          <div class="header-container--900">
+          <div class="header-container">
+            <img
+              src="icons/Logo_Eades_Electric.svg"
+              alt="Light bulb with Eades Electric written on it."
+              id="header-logo"
+            />
+            <h3 id="header-company-name" class="subtitle-typ">
+              <span class="pri-brand">Eades</span
+              ><span class="sec-brand">Electric</span>
+            </h3>
+          </div>
 
-      <!-- NAVIGATION -->
-      <nav class="main-nav gray-1-bg">
-        <ul class="main-nav-list">
-          <li>
-            <a class="main-nav-link" href="#home">Home</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#service">My Service</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#why">Why me</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#location">Location</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#pricing">Pricing</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+          <!-- NAVIGATION -->
+          <nav class="main-nav gray-1-bg">
+            <ul class="main-nav-list">
+              <li>
+                <a class="main-nav-link" href="#home">Home</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#service">My Service</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#why">Why me</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#location">Location</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
-      <!-- JS function for menu -->
-      <button class="btn-mobile-nav">
-        <img
-          src="icons/bx_menu.svg"
-          alt="Hamburger menu bars"
-          class="icon-mobile-nav burger"
-          name="menu-outline"
-        />
-        <img
-          src="icons/bx_x.svg"
-          alt="menu exit"
-          class="icon-mobile-nav exit"
-          name="close-outline"
-        />
-      </button>
-    </header>
+        <!-- JS function for menu -->
+        <button class="btn-mobile-nav">
+          <img
+            src="icons/bx_menu.svg"
+            alt="Hamburger menu bars"
+            class="icon-mobile-nav burger"
+            name="menu-outline"
+          />
+          <img
+            src="icons/bx_x.svg"
+            alt="menu exit"
+            class="icon-mobile-nav exit"
+            name="close-outline"
+          />
+        </button>
+      </header>
+    </div>
 
     <!-- HERO SECTION -->
     <section id="home" class="lrg-cont-blck">
+      <div class="hero-grid">
+        <div class="hero-txt">
       <h1 class="h1-small-typ sml-cont-blck">
         <span class="pri-brand">Eades</span
         ><span class="sec-brand">Electric</span>
@@ -93,16 +100,23 @@
         <strong>Disclaimer:</strong> the website is still under construction.
         All content is subject to change.
       </p>
-      <figure>
+    </div>
+      <figure class="hero-img">
         <img
           src="images/Jacob_Eades_Profile_1.jpg"
           alt="Jacob Eades owner of Eades Electric LLC., early 20's white male, with brown hair in black shirt."
-          class="sml-cont-blck profile-pic"
+          class="sml-cont-blck profile-pic-1"
         />
-        <button class="btn-lrg sml-cont-blck home-btn">
-          Contact Jacob for a Free Quote
-        </button>
+        <img
+          src="images/Jacob_Eades_Profile_2.jpg"
+          alt="Jacob Eades owner of Eades Electric LLC., early 20's white male, with brown hair in black shirt."
+          class="profile-pic-2"
+        />
       </figure>
+      <button class="btn-lrg sml-cont-blck home-btn">
+        Contact Jacob for a Free Quote
+      </button>
+    </div>
     </section>
     <!-- MY SERVICE SECTION -->
     <section id="service" class="lrg-cont-blck">
