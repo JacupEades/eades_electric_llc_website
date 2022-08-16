@@ -99,6 +99,7 @@
 
 .main-nav-link {
   padding: 1.2rem;
+  width: 100%;
 }
 
 .nav-open .main-nav {
@@ -170,7 +171,7 @@
 }
 
 .srv-card h2 {
-  padding: 2.4rem 0 0 2.4rem;
+  padding: 2.4rem 2.4rem 0 2.4rem;
 }
 
 .srv-card ul {
@@ -179,8 +180,8 @@
 }
 
 .srv-card p {
-  margin: auto;
-  padding: 2.4rem;
+  /* margin: auto; */
+  padding: 1.6rem 2.4rem 0 2.4rem;
 }
 .card-5-p p {
   padding-bottom: 0;
@@ -189,7 +190,7 @@
 .srv-card button {
   padding-bottom: 2.4rem;
   padding: 12px 20px;
-  margin: 0 0 2.4rem 2.4rem;
+  margin: 2.4rem 0 2.4rem 2.4rem;
 }
 
 /* ************************************* */
@@ -292,6 +293,7 @@
 }
 
 .contact-box h2 {
+  color: #ffffff;
   margin-top: 1.2rem;
 }
 
@@ -300,6 +302,28 @@
 }
 .contact-box a {
   color: #f1cb00;
+}
+
+.cnt-link:link,
+.cnt-link:visited {
+  position: relative;
+  display: inline;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 21.8px;
+  transition: all 0.3s;
+  padding: 0;
+}
+
+.cnt-link:hover,
+.cnt-link:active {
+  background-color: #353535;
+  width: 100%;
+
+  transition: 0.25s;
 }
 /* ************************************* */
 /* FOOTER */
