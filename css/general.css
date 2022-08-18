@@ -1,0 +1,223 @@
+/* Font Families paste 
+font-family: "Open Sans", sans-serif;
+font-family: "Rokkitt", serif;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percertage of user's browser font-size setting */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+  /* IDK why this was here but saving it for later */
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #ffffff;
+  overflow-x: hidden;
+  /* 496(MAX CONTENT) + 32 (CONTENT PADDING) */
+  max-width: 52.8rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.lrg-cont-blck {
+  padding-top: 7.2rem;
+}
+
+.sml-cont-blck {
+  margin-top: 2.4rem;
+}
+
+/* ************************************* */
+/* TYPOGRAPHY */
+/* ************************************* */
+/* Combined typography styles */
+.subtitle-typ,
+.body-typ,
+.body-bold-typ,
+.small-typ,
+.h1-small-typ,
+.h1-large-typ,
+.h2-large-typ {
+  font-style: normal;
+}
+
+.subtitle-typ,
+.body-bold-typ,
+.h1-small-typ,
+.h1-large-typ,
+.h2-large-typ {
+  font-weight: 700;
+}
+
+.main-nav {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 21.79px;
+}
+
+.subtitle-typ {
+  font-family: "Rokkitt";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.body-typ {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+strong,
+.body-bold-typ {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.small-typ {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.h1-large-typ {
+  font-family: "Rokkitt";
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+}
+
+.h1-small-typ {
+  font-family: "Rokkitt";
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+}
+
+.h2-large-typ {
+  font-family: "Open Sans";
+  font-size: 28px;
+  line-height: 38px;
+}
+
+/* ************************************* */
+/* COLORS */
+/* ************************************* */
+.pri-brand {
+  color: #f1cb00;
+}
+
+.pri-light {
+  color: #fff9da;
+}
+
+.pri-dark {
+  color: #aa9211;
+}
+
+.sec-brand {
+  color: #49b6f3;
+}
+
+.sec-dark {
+  color: #0578b8;
+}
+.gray-1-bg {
+  background-color: #232323;
+}
+
+.gray-2-bg {
+  background-color: #353535;
+}
+
+/* ************************************* */
+/* BUTTON */
+/* ************************************* */
+
+.btn-sml,
+.btn-lrg {
+  border: none;
+  border-radius: 0.4rem;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+
+.btn-sml {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 22px;
+  width: 150px;
+  height: 46px;
+}
+
+.btn-lrg {
+  font-size: 1.8rem;
+  font-weight: 700;
+  /* this may not matter */
+  line-height: 24.51px;
+  height: 57px;
+  text-align: center;
+  padding: 1.6rem;
+}
+
+.btn-sml:link,
+.btn-sml:visited,
+.btn-lrg:link,
+.btn-lrg:visited {
+  background-color: #f1cb00;
+  color: #353535;
+}
+
+.btn-sml:hover,
+.btn-sml:active,
+.btn-lrg:hover,
+.btn-lrg:active {
+  background-color: #fff9da;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5), 0px 0px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.25s ease-in-out;
+  transform: translatey(-2px);
+}
+/* ************************************* */
+/* ANCHOR */
+/* ************************************* */
+.nav-open .main-nav {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.nav-open .icon-mobile-nav[name="close-outline"] {
+  display: block;
+}
+
+.nav-open .icon-mobile-nav[name="menu-outline"] {
+  display: none;
+}
+
+.main-nav-list {
+  list-style: none;
+  flex-direction: column;
+}
+
+/* .main-nav-link:link,
+.main-nav-link:visited {
+} */
+/* ************************************* */
+/* TEXT */
+/* ************************************* */
